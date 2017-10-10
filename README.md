@@ -11,8 +11,9 @@ Landbank add-in is tool for QC the shapefiles.
 ### Library
 
 Landbank add-in is tool is currently extended with the following library. Instructions on how to use them in your own application are linked below.
+
 | Library | README |
-| ------ | ------ |
+| --- | --- |
 | openpyxl | http://openpyxl.readthedocs.io/en/default/ |
 | pillow | http://pillow.readthedocs.io/en/4.3.x/ |
 | report lab |http://www.reportlab.com/documentation/ |
