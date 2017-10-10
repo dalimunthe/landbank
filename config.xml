@@ -1,0 +1,14 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>Landbank Tools</Name><AddInID>{143fb462-d125-4d08-8db9-ae78f89ed491}</AddInID><Description>Tools For Landbank Works</Description><Version>0.1</Version><Image>Images\001-post.png</Image><Author>R</Author><Company>GIS</Company><Date>10/10/2017</Date><Targets><Target name="Desktop" version="10.1" /></Targets><AddIn language="PYTHON" library="Landbank_Addins_Arcgis_addin.py" namespace="Landbank_Addins_Arcgis_addin"><ArcMap>
+    <Commands>
+        <Button caption="Polygon To Excel" category="Landbank Tools" class="ButtonClass1" id="Landbank_Addins_Arcgis_addin.button" image="" message="Convert Polygon into Excel Files" tip="Convert"><Help heading="Convert">Polygon into Point List</Help></Button>
+        <Button caption="Excel To Polygon" category="Landbank Tools" class="ButtonClass2" id="Landbank_Addins_Arcgis_addin.button_1" image="" message="Convert excel into Point, Polygon and Report" tip="Convert"><Help heading="Convert">Excel into Final Data</Help></Button>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="Landbank Tools" category="Landbank Tools" id="Landbank_Addins_Arcgis_addin.toolbar" showInitially="true"><Items><Menu refID="Landbank_Addins_Arcgis_addin.menu" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        <Menu caption="Conversion" category="Landbank Tools" id="Landbank_Addins_Arcgis_addin.menu" isRootMenu="false" isShortcutMenu="false" separator="true"><Items><Button refID="Landbank_Addins_Arcgis_addin.button" /><Button refID="Landbank_Addins_Arcgis_addin.button_1" /></Items></Menu>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
