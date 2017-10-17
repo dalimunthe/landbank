@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+    <Esri>
+        <CreaDate>20171017</CreaDate>
+        <CreaTime>08484700</CreaTime>
+        <ArcGISFormat>1.0</ArcGISFormat>
+        <SyncOnce>TRUE</SyncOnce>
+        <ModDate>20171017</ModDate>
+        <ModTime>092648</ModTime>
+    </Esri>
+    <dataIdInfo>
+        <idCitation>
+            <resTitle>Polygon To Excel</resTitle>
+        </idCitation>
+    </dataIdInfo>
+    <distInfo>
+        <distributor>
+            <distorFormat>
+                <formatName>ArcToolbox Tool</formatName>
+            </distorFormat>
+        </distributor>
+    </distInfo>
+    <tool name="polygonToExcel" displayname="Polygon To Excel" toolboxalias="Landbank">
+        <parameters>
+            <param name="feature_class" displayname="Landbank Polygon" type="Required" direction="Input"
+                   datatype="Feature Layer" expression="feature_class"/>
+            <param name="out_path" displayname="Output Folder" type="Required" direction="Input" datatype="Folder"
+                   expression="out_path"/>
+        </parameters>
+    </tool>
+</metadata>

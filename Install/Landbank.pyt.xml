@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+    <Esri>
+        <CreaDate>20171010</CreaDate>
+        <CreaTime>11053300</CreaTime>
+        <ArcGISFormat>1.0</ArcGISFormat>
+        <SyncOnce>TRUE</SyncOnce>
+        <ModDate>20171017</ModDate>
+        <ModTime>092648</ModTime>
+    </Esri>
+    <toolbox name="Landbank" alias="Landbank">
+        <arcToolboxHelpPath>c:\program files (x86)\arcgis\desktop10.2\Help\gp</arcToolboxHelpPath>
+        <toolsets/>
+    </toolbox>
+    <dataIdInfo>
+        <idCitation>
+            <resTitle>Landbank</resTitle>
+        </idCitation>
+    </dataIdInfo>
+    <distInfo>
+        <distributor>
+            <distorFormat>
+                <formatName>ArcToolbox Toolbox</formatName>
+            </distorFormat>
+        </distributor>
+    </distInfo>
+</metadata>

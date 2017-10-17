@@ -1,5 +1,6 @@
-import arcpy
 import pythonaddins
+
+relPath = os.path.dirname(__file__)
 
 class ButtonClass1(object):
     """Implementation for Landbank_Addins_Arcgis_addin.button (Button)"""
@@ -7,7 +8,8 @@ class ButtonClass1(object):
         self.enabled = True
         self.checked = False
     def onClick(self):
-        pass
+        toolPath = relPath + "\\Landbank.pyt"
+        pythonaddins.GPToolDialog(toolPath, "polygonToExcel")
 
 class ButtonClass2(object):
     """Implementation for Landbank_Addins_Arcgis_addin.button_1 (Button)"""
@@ -15,4 +17,5 @@ class ButtonClass2(object):
         self.enabled = True
         self.checked = False
     def onClick(self):
-        pass
+        toolPath = relPath + "\\Landbank.pyt"
+        pythonaddins.GPToolDialog(toolPath, "excelToPolygon")
